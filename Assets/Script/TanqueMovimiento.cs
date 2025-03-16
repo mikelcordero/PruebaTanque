@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class TankController : MonoBehaviour
 {
-    public float velocidadMovimiento = 5f; // Velocidad del tanque
-    public float velocidadRotacion = 100f; // Velocidad de rotación
-    public Transform torreta; // Referencia a la torreta (así no se mueve con la base)
+    public float velocidadMovimiento = 5f; 
+    public float velocidadRotacion = 100f; 
+    public Transform torreta; 
 
     void Update()
     {
